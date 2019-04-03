@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './styling-examples/Inline';
+// import App from './styling-examples/Module';
+// import App from './styling-examples/BootstrapUtils';
 
-const title = 'My Minimal React Webpack Babel Setup';
+// import App from './event-handling/Controlled';
+
+// import App from './stateless/Stateless';
+
+// import App from './Immutability/Example';
+// import App from './dynamicContents/Example';
+
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <App />,
   document.getElementById('app')
 );
-
-module.hot.accept();
