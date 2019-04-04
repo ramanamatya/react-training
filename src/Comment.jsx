@@ -52,7 +52,7 @@ class Comment extends React.Component {
         {this.renderComments()}
         <label className="mr-2">Comments</label>
         <input className="w-100" type="text" value={formValue} onChange={this.handleChange} />
-        <button type="submit" onClick={this.handleClick}>Submit</button>
+        <button type="submit" className="btn btn-primary" onClick={this.handleClick}>Submit</button>
       </div>
     );
   }

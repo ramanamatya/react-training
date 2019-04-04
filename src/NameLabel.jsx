@@ -19,10 +19,10 @@ export default class NameLabel extends Component {
         <h1>{ name }</h1>
         <Select
           options={options}
-          placeholder='Select Flavour'
+          placeholder="Select Flavour"
           isMulti
         />
       </div>
-    )
+    );
   }
 }
