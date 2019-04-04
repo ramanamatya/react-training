@@ -1,0 +1,32 @@
+[{
+  "name": "Clark Kent",
+  "hero_name": "Superman",
+  "power": "Super Strength",
+  "weakness": "Kryptonite"
+},{
+  "name": "Bruce Wayne",
+  "hero_name": "Batman",
+  "power": "He is rich",
+  "weakness": "He is human"
+},{
+  "name": "Barry Allen",
+  "hero_name": "The Flash",
+  "power": "Super speed",
+  "weakness": "Gravity Gun"
+},{
+  "name": "Hal Jordan",
+  "hero_name": "Green Lantern",
+  "power": "Lantern power ring",
+  "weakness": "Fear"
+},{
+  "name": "Billy Batson",
+  "hero_name": "Shazam",
+  "power": "Electricity",
+  "weakness": "Magic"
+}
+{
+  "name": "Diana Prince",
+  "hero_name": "Wonder Woman",
+  "power": "Super Agility",
+  "weakness": "Dark Magic"
+}]
