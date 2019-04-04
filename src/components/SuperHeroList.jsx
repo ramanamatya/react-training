@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getSuperHeroList } from '../actions';
 
 export class SuperHeroList extends Component {
-
-  constructor() {
-    super();
-  }
 
   componentDidMount() {
     this.props.dispatch(getSuperHeroList());
@@ -55,7 +50,3 @@ const mapStateToProps = store => ({
 });
 
 export default connect(mapStateToProps)(SuperHeroList);
-
-// DeliveryHubShiftsPremiumOptions.propTypes = {
-//   deliveryHubs: PropTypes.array,
-// };
