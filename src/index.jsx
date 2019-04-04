@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import Navs from './components/Navs';
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <Navs />
+  </BrowserRouter>,
   document.getElementById('app'),
 );

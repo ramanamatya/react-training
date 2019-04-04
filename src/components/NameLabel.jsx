@@ -8,7 +8,7 @@ export default class NameLabel extends Component {
   }
 
   render() {
-    const { name, lastname } = this.props;
+    // const { name, lastname } = this.props;
     const options = [
       { value: 'chocolate', label: 'Chocolate' },
       { value: 'strawberry', label: 'Strawberry' },
