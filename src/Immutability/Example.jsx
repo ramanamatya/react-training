@@ -38,7 +38,7 @@ class Example extends React.Component {
 
     // //using spread operator
     // this.setState({
-    //   commentList: [...commentList, formValue],,
+    //   commentList: [...commentList, formValue],
     //   formValue: '',
     // });
 
