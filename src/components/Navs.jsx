@@ -14,6 +14,9 @@ const NavBars = () => (
     <li className="nav-item">
       <NavLink to="/superhero" className="nav-link">Superhero</NavLink>
     </li>
+    <li className="nav-item">
+      <NavLink to="/hooks" className="nav-link">Hooks</NavLink>
+    </li>
   </ul>
 );
 

@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getSuperHeroList = () =>
   (dispatch) => {
     const url = 'https://ramanamatya.github.io/react-training/json/list.json';
-    dispatch({ type: 'FETCH_DATA_IN_PROGRESS' });
+    dispatch({ type: 'IN_PROGRESS' });
     return axios.get(url)
       .then((response) => {
         dispatch({
@@ -18,3 +18,9 @@ export const getSuperHeroList = () =>
         });
       });
   };
+
+export const addSuperHero = (hero) =>
+  ({
+    type: 'ADD_SUPER_HERO',
+    payload: hero
+  });
