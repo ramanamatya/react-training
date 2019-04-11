@@ -8,6 +8,9 @@ const listReducer = (state = initialState, action) => {
     case 'FETCH_DATA_SUCCESS' :
       newState.lists = action.payload;
       return newState;
+    case 'ADD_SUPER_HERO':
+      newState.lists = [...newState.lists, action.payload];
+      return newState;
     default:
       return state;
   }

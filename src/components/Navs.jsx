@@ -14,6 +14,12 @@ const NavBars = () => (
     <li className="nav-item">
       <NavLink to="/superhero" className="nav-link">Superhero</NavLink>
     </li>
+    <li className="nav-item">
+      <NavLink to="/usestate" className="nav-link">UseState</NavLink>
+    </li>
+    <li className="nav-item">
+      <NavLink to="/useeffect" className="nav-link">UseEffect</NavLink>
+    </li>
   </ul>
 );
 
